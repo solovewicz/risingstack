@@ -2,7 +2,7 @@
 
 const fs = require('fs')  
 
-let content  
+var content  
 try {  
   content = fs.readFileSync('file.md', 'utf-8')
 } catch (ex) {
