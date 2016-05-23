@@ -39,12 +39,12 @@ app.get('/', (request, response) => {
     The error handler function should be the last function a:dded with app.use.
     The error handler has a next callback - it can be used to chain multiple error handlers.
 */
-/*
+
 app.use((err, request, response, next) => {  
   // log the error, for now just console.log
   console.log(err);
   response.status(500).send('Something broke!');
 });
-*/
+
 
 app.listen(port);  
